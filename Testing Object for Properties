@@ -1,0 +1,29 @@
+var man3 = {
+	"name": "Jack",
+	"age" : 45,
+	"height": "1.69 m",
+	"gender": "male"
+	};
+    
+//Testing Object for Properties
+	
+	function checkObj(checkProp){
+		if(man3.hasOwnProperty(checkProp)){
+			return man3[checkProp];
+		} else {
+			return "Not Found";
+		}
+	}
+	console.log(checkObj("ae"));
+	
+	
+	//Testing Object for Properties (Own)
+	
+	function checkObj2(checkProp2){
+		if(typeof man3.checkProp2 != undefined){
+			return man3[checkProp2];
+		} else {
+			return "Not Found";
+		}
+	}
+	console.log(checkObj2("ae"));
