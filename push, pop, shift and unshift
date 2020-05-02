@@ -1,0 +1,27 @@
+<html>
+<script>
+	var array1 = ["David", 24]
+	var array2 = [["Alan", 42], ["Wilson", 55]]
+	
+//Append or add array/item at the end of an array
+	
+	array2.push(array1);
+	console.log(array2);
+	
+//add array/item at the start of an array
+	
+	array2.unshift(array1);
+	console.log(array2);
+
+//Remove or pop the last item of an array
+	
+	array2.pop();
+	console.log(array2);
+	
+//Remove the first item of an array
+	
+	array2.shift();
+	console.log(array2);
+
+</script>
+</html>
